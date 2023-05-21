@@ -16,7 +16,7 @@ class BorrarCliente():
         ventana.resizable(width=False, height=False) #Hacemos que la ventana no sea reducible.
         #-------------------------------------------
         ventana.iconbitmap('Imagenes\logo.png') #Cambiamos el icono de la ventana.
-        main_title = Label(text="                            Borrar Cliente                          ",font=("Bauhaus 93",35),bg="#9CD9E2",fg="black")
+        main_title = Label(text="                            Borrar                         ",font=("Bauhaus 93",35),bg="#9CD9E2",fg="black")
         main_title.pack()
         #-------------------------------------------
         codigoborra = StringVar()
